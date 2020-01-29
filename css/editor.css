@@ -1,0 +1,275 @@
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    color: #333;
+	position: relative;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 30px;
+    line-height:1.3;
+}
+
+h6 {
+    font-size: 24px;
+    line-height:1.4;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+blockquote {
+    position: relative;
+    padding: 0 0 0 40px;
+    margin-bottom: 25px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    color: #333;
+}
+
+blockquote:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'FontAwesome';
+    content: '\f10d';
+    font-size: 40px;
+    opacity: 0.4;
+}
+
+.w-text-light blockquote {
+    color:#fff;
+}
+
+blockquote p {
+    margin-bottom: 0;
+}
+
+/*==================================
+DROPCAP 
+/*==================================*/
+.dropcap {
+    position: relative;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    line-height: 35px;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 8px 10px 0 0;
+    padding: 0;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.w-text-light .dropcap {
+    background: #fff;
+    color: #10a5a0;
+}
+
+/*==================================
+HIGHLIGHT
+/*==================================*/
+.highlight {
+    color: #10a5a0;
+}
+
+/** HEADING **/
+.w-heading {
+    text-align: center;
+}
+
+.w-heading.text-left {
+    text-align:left;
+}
+
+.w-heading.text-right {
+    text-align:right;
+}
+
+.w-heading h2 {
+    text-transform:uppercase;  
+    font-size:24px;
+    line-height: 1.5;
+    margin-bottom: 22px;
+}
+
+.w-heading h2:after {
+    color: #555;
+    font-weight: lighter;
+}
+
+.w-heading.title-1 h2,
+.w-heading.title-2 h2 {
+    margin-bottom: 42px;
+}
+
+.w-heading.title-1 h2:before {
+    background: #555;
+    display: block;
+    text-align: center;
+    content: '';
+    width: 60px;
+    margin-left:-30px;
+    height: 1px;
+    position: absolute;
+    bottom: -15px;
+    left:50%;
+    
+}
+
+.w-heading.title-1 h2:after {
+    background:#555;
+    display: block;
+    content: '';
+    width: 30px;
+    margin-left:-15px;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+    left:50%;
+}
+
+.w-heading.title-2 h2:before {
+    background:#555;
+    display: block;
+    text-align: center;
+    content: '';
+    width: 30px;
+    margin-left:-15px;
+    height: 1px;
+    position: absolute;
+    bottom: -15px;
+    left:50%;
+}
+
+.w-heading.title-2 h2:after {
+    background:#555;
+    display: block;
+    content: '';
+    width: 30px;
+    margin-left:-15px;
+    height: 3px;
+    position: absolute;
+    bottom: -22px;
+    left:50%;
+}
+
+.w-heading.title-3 h2:after {
+    display: block;
+    font-family:'gogreen';
+    content: '\e832';
+    font-size:64px;
+    margin: 20px auto 0;
+    line-height: 1px;
+    height: 5px;
+    
+}
+
+.w-heading.title-4 h2:after {
+    display: block;
+    font-family:'gogreen';
+    content: '\e835';
+    font-size:55px;
+    margin: 20px auto 0;
+    line-height: 1px;
+    height: 5px;
+}
+
+.w-heading.title-5 h2:after {
+    display: block;
+    font-family:'gogreen';
+    content: '\e838';
+    font-size:40px;
+    font-weight:600;
+    margin: 20px auto 0;
+    line-height: 1px;
+}
+
+.w-heading.title-6 h2:after {
+    display: block;
+    font-family: 'gogreen';
+    content: '\e839';
+    font-size: 64px;
+    margin: 20px auto 0;
+    line-height: 1px;
+    height: 5px;
+}
+
+.w-heading.title-7 h2 {
+    margin-bottom:5px;
+}
+
+.w-heading.title-7 h2:after {
+    display: block;
+    font-family: 'gogreen';
+    content: '\e827';
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.w-heading.title-8 h2:after {
+    display: block;
+    font-family:'gogreen';
+    content: '\e83a';
+    font-size:80px;
+    margin: 20px auto 0;
+    line-height: 1px;
+}
+
+.w-heading.title-9 h2:after {
+    display: block;
+    font-family:'gogreen';
+    content: '\e83c';
+    font-size:70px;
+    margin: 20px auto 0;
+    line-height: 1px;
+}
+
+.w-heading.title-10 h2:after {
+    display: block;
+    font-family:'gogreen';
+    content: '\e81f';
+    font-size:35px;
+    margin: 20px auto 0;
+    line-height: 20px;
+}
+
+/* Sub Title*/
+.sub-title {
+    display:block;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.text-left{
+    text-align:left;
+}
+.text-center{
+    text-align:center;
+}
+.text-right{
+    text-align:right;
+}

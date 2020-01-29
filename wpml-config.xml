@@ -1,0 +1,77 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wyde_options">
+            <key name="footer_text_content" />
+        </key>
+    </admin-texts>   
+    <custom-types>
+        <custom-type translate="1">wyde_portfolio</custom-type>
+        <custom-type translate="1">wyde_testimonial</custom-type>
+        <custom-type translate="1">wyde_team_member</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+        <taxonomy translate="1">portfolio_skill</taxonomy>
+        <taxonomy translate="0">portfolio_tag</taxonomy>
+        <taxonomy translate="1">testimonial_category</taxonomy>
+        <taxonomy translate="1">team_member_category</taxonomy>
+    </taxonomies>
+    <custom-fields>
+        <custom-field action="copy">_w_menu_icon</custom-field>
+        <custom-field action="copy">_w_megamenu</custom-field>
+        <custom-field action="copy">_w_layout</custom-field>
+        <custom-field action="copy">_w_sidebar_position</custom-field>
+        <custom-field action="copy">_w_sidebar_name</custom-field>
+        <custom-field action="copy">_w_sidebar_style</custom-field>
+        <custom-field action="copy">_w_page_header</custom-field>
+        <custom-field action="copy">_w_header_transparent</custom-field>
+        <custom-field action="copy">_w_header_text_style</custom-field>
+        <custom-field action="copy">_w_title_area</custom-field>
+        <custom-field action="translate">_w_page_title</custom-field>
+        <custom-field action="translate">_w_subtitle</custom-field>
+        <custom-field action="copy">_w_title_size</custom-field>
+        <custom-field action="copy">_w_title_scrolling_effect</custom-field>
+        <custom-field action="copy">_w_title_align</custom-field>
+        <custom-field action="copy">_w_title_color</custom-field>
+        <custom-field action="copy">_w_title_background</custom-field>
+        <custom-field action="copy">_w_title_background_image</custom-field>
+        <custom-field action="copy">_w_title_background_video</custom-field>
+        <custom-field action="copy">_w_title_background_color</custom-field>
+        <custom-field action="copy">_w_title_background_size</custom-field>
+        <custom-field action="copy">_w_title_overlay_color</custom-field>
+        <custom-field action="copy">_w_title_overlay_opacity</custom-field>
+        <custom-field action="copy">_w_title_background_parallax</custom-field>
+        <custom-field action="copy">_w_background</custom-field>
+        <custom-field action="copy">_w_background_image</custom-field>
+        <custom-field action="copy">_w_background_color</custom-field>
+        <custom-field action="copy">_w_background_size</custom-field>
+        <custom-field action="copy">_w_background_overlay_color</custom-field>
+        <custom-field action="copy">_w_background_overlay_opacity</custom-field>          
+        <custom-field action="copy">_w_page_footer</custom-field>
+        <custom-field action="copy">_w_embed_url</custom-field>
+        <custom-field action="copy">_w_gallery_images</custom-field>
+        <custom-field action="copy">_w_post_link</custom-field>
+        <custom-field action="translate">_w_post_quote</custom-field>
+        <custom-field action="translate">_w_post_quote_author</custom-field>
+        <custom-field action="copy">_w_post_author</custom-field>
+        <custom-field action="copy">_w_post_related</custom-field>
+        <custom-field action="copy">_w_post_post_custom_title</custom-field>
+        <custom-field action="copy">_w_post_custom_sidebar</custom-field>
+        <custom-field action="copy">_w_portfolio_layout</custom-field>
+        <custom-field action="copy">_w_project_url</custom-field>
+        <custom-field action="translate">_w_client_name</custom-field>
+        <custom-field action="translate">_w_client_detail</custom-field>
+        <custom-field action="copy">_w_client_website</custom-field>
+        <custom-field action="copy">_w_custom_fields</custom-field>
+        <custom-field action="translate">_w_member_position</custom-field>
+        <custom-field action="translate">_w_member_detail</custom-field>
+        <custom-field action="copy">_w_member_email</custom-field>
+        <custom-field action="copy">_w_member_website</custom-field>
+        <custom-field action="copy">_w_member_socials</custom-field>
+        <custom-field action="translate">_w_testimonial_position</custom-field>
+        <custom-field action="translate">_w_testimonial_company</custom-field>
+        <custom-field action="copy">_w_testimonial_website</custom-field>
+        <custom-field action="copy">_w_testimonial_email</custom-field>
+        <custom-field action="translate">_w_testimonial_detail</custom-field>
+    </custom-fields>
+</wpml-config>
